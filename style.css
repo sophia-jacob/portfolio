@@ -18,12 +18,48 @@
     justify-content: left;
     margin-top: 50px;
     margin-left: 800px;
+    z-index: 1;
 }
 
 h5{
-    font-size: 50px;
-    margin-left: 800px;
-    margin-top: 30px;
+    font-size: 30px;
+    /* margin-left: 70px;
+    margin-top: 150px; */
+    margin-top: 100px;
+    margin-right: 30px;
 }
 
     
+.dropdown-list {
+    display: none; /* Hidden by default */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.dropdown-list.show {
+    display: block; /* Show when the 'show' class is added */
+}
+
+.dropdown-toggle {
+    padding: 10px 15px;
+    background-color: #a268bd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* display: flex;
+    justify-content: flex-start; /* Aligns items to the start (left) */
+    /* align-items: flex-start;   */
+    /* display: grid;
+    grid-template-columns: auto auto; */
+}
+
+.elements{
+    display: grid;
+    grid-template-columns: auto auto;
+}

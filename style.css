@@ -1,0 +1,29 @@
+.header{
+    color: rgb(196, 181, 219);
+    font-size: 80px;
+    text-align: center;
+    background: rgb(182, 86, 218);
+    /* background: rgb(218, 137, 244); */
+    border-radius: 20px;
+}
+
+.body{
+    background-color: rgb(221, 188, 231);
+}
+
+.image{
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    margin-left: 800px;
+}
+
+h5{
+    font-size: 50px;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+    
